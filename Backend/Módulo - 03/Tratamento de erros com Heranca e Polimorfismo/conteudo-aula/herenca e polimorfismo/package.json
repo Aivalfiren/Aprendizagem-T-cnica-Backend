@@ -1,0 +1,25 @@
+{
+  "name": "herenca-e-polimorfismo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.21.0",
+    "mime": "^4.0.4",
+    "qs": "^6.13.0"
+  }
+}
